@@ -411,6 +411,12 @@ footer a {
   html {
     font-size: 40%;
   }
+
+  .need_help ul {
+    align-items: center;
+    flex-direction: column;
+  }
+
 }
 
 @media (max-width: 425px) {
