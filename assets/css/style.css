@@ -403,6 +403,8 @@ footer a {
   .close {
     display: block;
     position: absolute; }
+    .close .close:active {
+      background-color: transparent; }
 
   nav ul {
     width: 50vw;

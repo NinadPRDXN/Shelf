@@ -383,6 +383,9 @@ footer a {
   .close {
     display: block;
     position: absolute;
+    .close:active {
+      background-color: transparent;
+    }
   }
 
   nav ul {
