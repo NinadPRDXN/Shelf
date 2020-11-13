@@ -391,6 +391,9 @@ footer a {
   footer styling ends here
 =================================*/
 @media (max-width: 1024px) {
+  body {
+    overflow: hidden; }
+
   header div .wrapper {
     position: relative; }
 
@@ -405,7 +408,7 @@ footer a {
     width: 50vw;
     height: 100vh;
     padding: 0;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     align-items: center;
@@ -413,7 +416,7 @@ footer a {
     flex-direction: column;
     justify-content: space-evenly;
     transform: translateX(100%);
-    transition: all 1s ease; }
+    transition: all .5s ease; }
 
   nav ul li:last-child {
     display: block;
